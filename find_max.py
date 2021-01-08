@@ -1,4 +1,3 @@
-
 def find_max(a_list):
     flag = True
     none_list = []
@@ -12,4 +11,6 @@ def find_max(a_list):
             else:
                 pass
         return(f"最大值為{max_value}")
+
+        
 print(find_max([0, 1, 3, 5, 4, 9, 16, 58, 3, 5, 11, 16]))
